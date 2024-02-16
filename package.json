@@ -2,12 +2,7 @@
   "name": "gallery",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-   "scripts": {
-    "scripts": {
-    "start": "serve",
-    "build": " npm run build, npm run serve"
-  },
+  "main": "index.html"
   },
   "repository": {
     "type": "git",
