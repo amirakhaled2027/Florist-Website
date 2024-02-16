@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.html",
    "scripts": {
+    "scripts": {
     "start": "serve",
-    "build": "npm run build"
+    "build": "public"
+  },
   },
   "repository": {
     "type": "git",
