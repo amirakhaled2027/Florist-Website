@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
  "scripts": {
-    "build": "sanity build",
+    "build": "npm run build",
   },
   "repository": {
     "type": "git",
