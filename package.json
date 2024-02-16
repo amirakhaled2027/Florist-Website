@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+ "scripts": {
+    "build": "[my-framework] build --output public"
   },
   "repository": {
     "type": "git",
