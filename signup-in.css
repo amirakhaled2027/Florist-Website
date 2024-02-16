@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..900;1,5..1200,87.5..112.5,300..900&display=swap');
+
+
+:root {
+    --clr-pink-top: #ffdad9;
+    --clr-pink-text: #e1809f;
+    --clr-pink-buttons: #fcf1f5;
+    --clr-dark-grey: #7A797C;
+    --clr-med-grey: #999999;
+    --clr-light-grey: #f7f7f7;
+    --clr-bg-blue: #f3f8fb;
+    --clr-bg-beige: #fcf7f3;
+    --clr-bg-green: #f5fdf2;
+
+    --ff-headings: "Playfair", serif;
+    --ff-main: "Open Sans", sans-serif;
+}
+
+
+    body {
+        font-family: var(--ff-main);
+      background: linear-gradient(90deg, rgba(135,29,63,1) 0%, rgba(175,56,94,1) 35%, rgba(225,128,159,1) 100%);
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-family: var(--ff-headings);
+      font-size: 50px;
+      font-style: italic;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: black;
+      font-family: var(--ff-main);
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    label span {
+        color: #333;
+        font-style: italic;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    input:focus {
+        outline: 1px solid rgb(135,29,63);
+        font-weight: 500;
+         margin-bottom: 5px;
+         display: block;
+         border-color: rgb(135,29,63);
+     }
+
+    .error-message {
+      color: red;
+      margin-top: -5px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+    .password-rules {
+      font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      color: #888;
+    }
+
+    .button {
+      background-color: rgb(135,29,63);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color:rgb(179, 39, 83);
+    }

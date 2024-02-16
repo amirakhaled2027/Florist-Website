@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+  <link rel="stylesheet" href="signup-in.css">
+  <title>Sign Up</title>
+</head>
+<body>
+<body>
+  <h1>Sign Up</h1>
+  <div class="form-container">
+    <form name="registerForm">
+      <label for="firstName">First Name <span>(required)</span></label>
+      <input type="text" id="firstName" name="firstName" placeholder="first name" required/><p class="error-message"></p>
+      <label for="lastName">Last Name <span>(required)</span></label>
+      <input type="text" id="lastName" placeholder="last name" required/>
+      <p class="error-message"></p>
+      <label for="e-mail">E-mail address <span>(required)</span></label>
+      <input type="text" id="e-mail" placeholder="firstname@gmail.com" required/>
+      <p class="error-message"></p>
+      <label for="phoneNumber">Phone Number</label>
+      <input type="text" id="phoneNumber" maxlength="9" pattern=".{9,}"   required title="9 characters length"placeholder="12345678910"/>
+      <p class="error-message"></p>
+      <label for="country">City</label>
+      <input type="text" id="country" placeholder="enter your city"/>
+      <p class="error-message"></p>
+      <label for="password">Password <span>(required)</span></label>
+      <input type="password" id="password" pattern=".{8,}"   required title="8 characters minimum"/>
+      <p class="error-message"></p>
+      <p class="password-rules">Your password should contain at least 8 characters and 1 number.</p>
+        <input class="button" type="submit" value="submit" name="submit" onClick="formValidation()" />
+     </form>
+  </div>
+</body>
+
+  <!-- JS file -->
+  <script src="signup-in.js"></script>
+</body>
+</html>
