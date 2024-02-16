@@ -2,8 +2,7 @@
   "name": "gallery",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html"
-  },
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codesandbox-app/static-template.git"
