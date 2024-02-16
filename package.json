@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
  "scripts": {
-    "build": "[my-framework] build --output public"
+    "build": "sanity build",
   },
   "repository": {
     "type": "git",
